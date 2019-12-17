@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Nueva carpeta-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -295,7 +294,7 @@ Wire Notes Line
 Wire Notes Line
 	10700 1000 10700 500 
 $Comp
-L atmel:ATMEGA328P-PU U1
+L Nueva-carpeta-rescue:ATMEGA328P-PU-atmel U1
 U 1 1 5DC597F1
 P 2850 2150
 F 0 "U1" H 2900 3517 50  0000 C CNN
@@ -306,7 +305,7 @@ F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L Nueva-carpeta-rescue:R-device R1
 U 1 1 5DC598B6
 P 4350 2350
 F 0 "R1" H 4280 2304 50  0000 R CNN
@@ -317,7 +316,7 @@ F 3 "~" H 4350 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Crystal Y1
+L Nueva-carpeta-rescue:Crystal-device Y1
 U 1 1 5DC599ED
 P 1200 2000
 F 0 "Y1" H 1200 2268 50  0000 C CNN
@@ -328,7 +327,7 @@ F 3 "~" H 1200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L Nueva-carpeta-rescue:C-device C2
 U 1 1 5DC59A92
 P 1600 2300
 F 0 "C2" H 1715 2346 50  0000 L CNN
@@ -339,7 +338,7 @@ F 3 "~" H 1600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L Nueva-carpeta-rescue:C-device C1
 U 1 1 5DC59B4B
 P 850 2300
 F 0 "C1" H 965 2346 50  0000 L CNN
@@ -494,7 +493,7 @@ Wire Wire Line
 Text Label 3950 2500 0    39   ~ 0
 10(**/SS)
 $Comp
-L device:R R2
+L Nueva-carpeta-rescue:R-device R2
 U 1 1 5DC59958
 P 950 5000
 F 0 "R2" H 1020 5046 50  0000 L CNN
@@ -505,7 +504,7 @@ F 3 "~" H 950 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D1
+L Nueva-carpeta-rescue:LED_ALT-device D1
 U 1 1 5DC6D160
 P 950 4600
 F 0 "D1" V 988 4482 50  0000 R CNN
@@ -544,7 +543,7 @@ $EndComp
 Wire Wire Line
 	950  5150 950  5250
 $Comp
-L device:R R3
+L Nueva-carpeta-rescue:R-device R3
 U 1 1 5DC718A3
 P 1550 4600
 F 0 "R3" H 1620 4646 50  0000 L CNN
@@ -555,7 +554,7 @@ F 3 "~" H 1550 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D2
+L Nueva-carpeta-rescue:LED_ALT-device D2
 U 1 1 5DC718A9
 P 1550 5000
 F 0 "D2" V 1588 4882 50  0000 R CNN
@@ -581,7 +580,7 @@ $EndComp
 Wire Wire Line
 	1550 5150 1550 5250
 $Comp
-L device:R R4
+L Nueva-carpeta-rescue:R-device R4
 U 1 1 5DC7306A
 P 2200 4600
 F 0 "R4" H 2270 4646 50  0000 L CNN
@@ -592,7 +591,7 @@ F 3 "~" H 2200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D3
+L Nueva-carpeta-rescue:LED_ALT-device D3
 U 1 1 5DC73070
 P 2200 5000
 F 0 "D3" V 2238 4883 50  0000 R CNN
@@ -618,7 +617,7 @@ $EndComp
 Wire Wire Line
 	2200 5150 2200 5250
 $Comp
-L device:R R5
+L Nueva-carpeta-rescue:R-device R5
 U 1 1 5DC748DE
 P 2650 4600
 F 0 "R5" H 2720 4646 50  0000 L CNN
@@ -629,7 +628,7 @@ F 3 "~" H 2650 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_ALT D4
+L Nueva-carpeta-rescue:LED_ALT-device D4
 U 1 1 5DC748E4
 P 2650 5000
 F 0 "D4" V 2688 4883 50  0000 R CNN
@@ -667,7 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4350 1550 4450
 $Comp
-L device:R R6
+L Nueva-carpeta-rescue:R-device R6
 U 1 1 5DC7B925
 P 3100 4600
 F 0 "R6" H 3030 4554 50  0000 R CNN
@@ -678,7 +677,7 @@ F 3 "~" H 3100 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED_ALT D5
+L Nueva-carpeta-rescue:LED_ALT-device D5
 U 1 1 5DC7B92B
 P 3100 5000
 F 0 "D5" V 3138 4883 50  0000 R CNN
